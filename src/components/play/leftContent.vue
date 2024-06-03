@@ -141,7 +141,7 @@ const remarkPublish = async () => {
             <div class="reply" v-show="item.reply > 0">
               <div class="rl-list">
                 <div class="photo">
-                  <img src="./images/lx2.jpg" />
+                  <img src="@/assets/lx2.jpg" />
                 </div>
                 <div class="rl-remark">
                   <h4>老许</h4>
@@ -157,7 +157,7 @@ const remarkPublish = async () => {
               </div>
               <div class="rl-list">
                 <div class="photo">
-                  <img src="./images/lx3.jpg" />
+                  <img src="@/assets/lx1.jpg" />
                 </div>
                 <div class="rl-remark">
                   <h4>marc223</h4>

@@ -91,7 +91,7 @@ const publish = async () => {
         <div class="right">
           <span>视频</span>
           <div class="video">
-            <video src="@/assets/flash.mp4"></video>
+            <video src=""></video>
             <input
               type="file"
               id="videoFile"

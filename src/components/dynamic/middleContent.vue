@@ -84,7 +84,7 @@ const playVideo = (id, type) => {
         <div class="liked-by">
           <span><img src="@/assets/lx1.jpg" /></span>
           <span><img src="@/assets/lx2.jpg" /></span>
-          <span><img src="@/assets/lx3.jpg" /></span>
+          <span><img src="@/assets/lx1.jpg" /></span>
           <p>被 <b>Ernest Achiever</b> 和 <b>2233等个人喜欢</b></p>
         </div>
         <div class="comments text-muted">查看所有277条评论</div>

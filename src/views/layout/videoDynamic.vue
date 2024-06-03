@@ -26,7 +26,7 @@ const cancel = () => {
           <a class="profile" @click="toPerson()">
             <div class="profile-photo">
               <img
-                :src="userStore.userInfo.user_pic || './images/lx2.jpg'"
+                :src="userStore.userInfo.user_pic || '/src/assets/th.png'"
                 alt=""
               />
             </div>
@@ -78,7 +78,7 @@ const cancel = () => {
                 <!--1-->
                 <div>
                   <div class="profile-photo">
-                    <img src="./images/lx2.jpg" />
+                    <img src="@/assets/lx2.jpg" />
                   </div>
                   <div class="notification-body">
                     <b>Keke Benjamin</b>接受你的好友请求
@@ -88,7 +88,7 @@ const cancel = () => {
                 <!--2-->
                 <div>
                   <div class="profile-photo">
-                    <img src="./images/lx2.jpg" />
+                    <img src="@/assets/lx2.jpg" />
                   </div>
                   <div class="notification-body">
                     <b>John Doe</b>对你的帖子发表了评论
@@ -98,7 +98,7 @@ const cancel = () => {
                 <!--3-->
                 <div>
                   <div class="profile-photo">
-                    <img src="./images/lx2.jpg" />
+                    <img src="@/assets/lx2.jpg" />
                   </div>
                   <div class="notification-body">
                     <b>Mary Oppong</b> 和 <b> 其他283人 </b> 喜欢你的帖子
